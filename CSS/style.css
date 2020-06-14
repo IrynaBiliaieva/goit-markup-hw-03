@@ -115,7 +115,7 @@ button {
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
-  background-color: #188ce8;
+  background-color: var(--accent-color);
   padding: 10px;
   min-width: 200px;
   height: 50px;
@@ -309,6 +309,11 @@ strong {
   color: var(--primary-text-color);
   text-decoration: none;
 }
+.description {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
 .description:hover,
 .description:focus {
   color: var(--primary-white-color);
