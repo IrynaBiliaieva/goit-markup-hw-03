@@ -46,7 +46,7 @@ a {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.42px;
 }
 .logo span {
   color: #2196f3;
@@ -58,7 +58,7 @@ a {
 
   font-weight: 500;
   line-height: 1.14;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.28px;
 }
 .site-nav .link {
   margin-right: 50px;
@@ -95,7 +95,7 @@ a {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.84px;
   text-transform: uppercase;
   color: var(--primary-white-color);
   background-color: var(--primary-text-color);
@@ -113,7 +113,7 @@ button {
 .primary {
   font-weight: 700;
   line-height: 1.87;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.84px;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   padding: 10px;
@@ -124,7 +124,7 @@ button {
   padding: 6px 20px;
   font-weight: 500;
   line-height: 1.62;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.42px;
   color: var(--title-text-color);
   background-color: #f5f4fa;
 }
@@ -172,7 +172,7 @@ button:focus {
 .section-title,
 .sub-title {
   font-weight: 700;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.42px;
   color: var(--title-text-color);
 }
 .work-examples .sub-title {
@@ -189,7 +189,7 @@ p {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.42px;
   color: var(--primary-text-color);
 }
 
@@ -201,7 +201,7 @@ p {
   display: block;
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.42px;
   text-align: center;
 }
 .our-team h3 {
@@ -232,7 +232,7 @@ p {
 footer {
   background-color: #2f303a;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.42px;
   color: var(--primary-white-color);
 }
 footer .upper-footer {
@@ -297,7 +297,7 @@ strong {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.84px;
   color: var(--title-text-color);
   text-decoration: none;
 }
@@ -305,7 +305,7 @@ strong {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.42px;
   color: var(--primary-text-color);
   text-decoration: none;
 }
