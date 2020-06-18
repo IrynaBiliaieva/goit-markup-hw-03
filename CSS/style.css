@@ -66,6 +66,9 @@ a {
   padding-bottom: 25px;
   display: block;
 }
+.site-nav .current-page {
+  color: var(--accent-color);
+}
 .site-nav .item:last-child {
   margin-right: 0;
 }
@@ -133,6 +136,7 @@ button:hover,
 button:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
+  border-color: 1px solid var(--accent-color);
 }
 .feature-list {
   display: flex;
