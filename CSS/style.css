@@ -315,10 +315,10 @@ p {
 .social-app .icon:hover {
   fill: var(--primary-white-color);
 }
-
-/*.clients {
+.clients {
   display: flex;
-}*/
+  align-items: center;
+}
 .clients .item {
   display: inline-flex;
   justify-content: center;
