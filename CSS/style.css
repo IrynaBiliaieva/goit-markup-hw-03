@@ -293,16 +293,30 @@ p {
 .social-app .item + .item {
   margin-left: 10px;
 }
-.social-app .link {
-  color: var(--primary-text-color);
-}
-.social .icon {
+
+.social {
   display: block;
   max-width: 44px;
   max-height: 44px;
   margin-left: 10px;
   border-radius: 50px;
   outline: 2px solid red;
+}
+.insta {
+  width: 20px;
+  height: 20px;
+}
+.twit {
+  width: 20px;
+  height: 16px;
+}
+.facebook {
+  width: 10px;
+  height: 20px;
+}
+.linkedin {
+  width: 20px;
+  height: 20px;
 }
 
 .clients {
@@ -409,10 +423,13 @@ strong {
   color: var(--accent-color);
 }
 
-.link:hover svg,
-.link:focus svg,
-.link:active svg {
-  fill: var(--accent-color);
+.social:hover,
+.social:focus,
+.social:active {
+  background-color: var(--accent-color);
+}
+.social .icon:hover: {
+  fill: var(--primary-white-color);
 }
 .card-container {
   width: 1200px;
