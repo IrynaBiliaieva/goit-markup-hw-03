@@ -289,6 +289,7 @@ p {
 }
 .social-app {
   display: flex;
+  margin-left: 32px;
 }
 .social-app .item + .item {
   margin-left: 10px;
@@ -317,6 +318,12 @@ p {
 .linkedin {
   width: 20px;
   height: 20px;
+}
+.social-app .item:hover {
+  background: var(--accent-color);
+}
+.social:hover .icon {
+  fill: var(--primary-white-color);
 }
 
 .clients {
@@ -421,14 +428,6 @@ strong {
   color: var(--accent-color);
 }
 
-.social:hover,
-.social:focus,
-.social:active {
-  background-color: var(--accent-color);
-}
-.social .icon:hover {
-  fill: var(--primary-white-color);
-}
 .card-container {
   width: 1200px;
   padding-left: 15px;
