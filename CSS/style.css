@@ -316,8 +316,9 @@ p {
   fill: var(--primary-white-color);
 }
 .clients {
-  display: inline-flexbox;
+  display: flexbox;
   align-items: center;
+  justify-content: center;
 }
 .clients .item {
   display: inline-flex;
