@@ -296,11 +296,13 @@ p {
 .social-app .link {
   color: var(--primary-text-color);
 }
-.social-app .icon {
+.social .icon {
   display: block;
   max-width: 44px;
   max-height: 44px;
   margin-left: 10px;
+  border-radius: 50px;
+  outline: 2px solid red;
 }
 
 .clients {
