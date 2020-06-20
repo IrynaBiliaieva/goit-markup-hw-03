@@ -315,9 +315,11 @@ p {
 .social-app .icon:hover {
   fill: var(--primary-white-color);
 }
+.our-clients {
+  padding-top: 54px;
+}
 .clients {
   display: flex;
-  padding-top: 94px;
   align-items: center;
 }
 .clients .item {
