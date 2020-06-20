@@ -296,8 +296,9 @@ p {
 }
 
 .social-app .item {
-  display: block;
-  align-content: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50px;
@@ -322,7 +323,7 @@ p {
 .social-app .item:hover {
   background: var(--accent-color);
 }
-.social:hover .icon {
+.social-app:hover .icon {
   fill: var(--primary-white-color);
 }
 
