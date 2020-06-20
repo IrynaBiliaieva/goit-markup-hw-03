@@ -96,9 +96,14 @@ a {
   display: inline-block;
   width: 16px;
   height: 11px;
-  outline: 2px solid red;
+  margin-right: 10px;
 }
-
+.icon-tell {
+  display: inline-block;
+  width: 10px;
+  height: 15px;
+  margin-right: 10px;
+}
 .hero {
   min-height: 600px;
   max-width: 1600px;
@@ -382,7 +387,7 @@ strong {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-.icon-email,
+
 .description:hover,
 .description:focus {
   color: var(--primary-white-color);
