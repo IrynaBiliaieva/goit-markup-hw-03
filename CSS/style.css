@@ -316,7 +316,7 @@ p {
   fill: var(--primary-white-color);
 }
 .clients {
-  display: flex;
+  display: inline-flexbox;
   align-items: center;
 }
 .clients .item {
@@ -325,7 +325,7 @@ p {
   align-items: center;
   width: 170px;
   height: 90px;
-  border: 2px solid #afb1b8;
+  border: 1px solid #afb1b8;
   border-radius: 5px;
 }
 .clients .item + .item {
