@@ -296,11 +296,11 @@ p {
 
 .social {
   display: block;
+  align-items: center;
   max-width: 44px;
   max-height: 44px;
   margin-left: 10px;
   border-radius: 50px;
-  outline: 2px solid red;
 }
 .insta {
   width: 20px;
@@ -342,9 +342,7 @@ footer .upper-footer {
   display: block;
   margin-right: 69px;
 }
-.social {
-  margin-right: 94px;
-}
+
 .emailing {
   margin-left: auto;
 }
@@ -428,7 +426,7 @@ strong {
 .social:active {
   background-color: var(--accent-color);
 }
-.social .icon:hover: {
+.social .icon:hover {
   fill: var(--primary-white-color);
 }
 .card-container {
