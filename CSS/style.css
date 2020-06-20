@@ -310,6 +310,7 @@ p {
 
 .social-app .item:hover {
   background: var(--accent-color);
+  --color: #fff;
 }
 .social-app .icon:hover {
   fill: var(--primary-white-color);
