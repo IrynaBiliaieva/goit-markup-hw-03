@@ -302,28 +302,16 @@ p {
   width: 44px;
   height: 44px;
   border-radius: 50px;
-  outline: 1px solid red;
 }
-.insta {
+.social-app .icon {
   width: 20px;
   height: 20px;
 }
-.twit {
-  width: 20px;
-  height: 16px;
-}
-.facebook {
-  width: 10px;
-  height: 20px;
-}
-.linkedin {
-  width: 20px;
-  height: 20px;
-}
+
 .social-app .item:hover {
   background: var(--accent-color);
 }
-.social-app:hover .icon {
+.social-app .icon:hover {
   fill: var(--primary-white-color);
 }
 
