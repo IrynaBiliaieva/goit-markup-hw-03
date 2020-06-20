@@ -412,7 +412,7 @@ strong {
 .link:hover svg,
 .link:focus svg,
 .link:active svg {
-  color: var(--accent-color);
+  fill: var(--accent-color);
 }
 .card-container {
   width: 1200px;
