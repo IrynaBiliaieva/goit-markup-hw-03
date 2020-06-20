@@ -96,8 +96,11 @@ a {
   display: inline-block;
   width: 50px;
   height: 50px;
-  fill: #7db958;
   outline: 2px solid red;
+}
+.email {
+  width: 16px;
+  height: 11px;
 }
 
 .hero {
