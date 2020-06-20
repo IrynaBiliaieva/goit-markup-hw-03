@@ -382,7 +382,7 @@ strong {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-
+.icon-email,
 .description:hover,
 .description:focus {
   color: var(--primary-white-color);
