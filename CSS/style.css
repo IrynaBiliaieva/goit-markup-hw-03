@@ -94,6 +94,7 @@ a {
 
 .icon-email {
   display: inline-block;
+  align-items: baseline;
   width: 16px;
   height: 11px;
   margin-right: 10px;
@@ -104,6 +105,7 @@ a {
   height: 15px;
   margin-right: 10px;
 }
+
 .hero {
   min-height: 600px;
   max-width: 1600px;
@@ -295,6 +297,12 @@ p {
 .social-app .link {
   color: var(--primary-text-color);
 }
+.social-app .icon {
+  display: block;
+  max-width: 44px;
+  max-height: 44px;
+  margin-left: 10px;
+}
 
 .clients {
   display: flex;
@@ -400,6 +408,11 @@ strong {
   color: var(--accent-color);
 }
 
+.link:hover svg,
+.link:focus svg,
+.link:active svg {
+  color: var(--accent-color);
+}
 .card-container {
   width: 1200px;
   padding-left: 15px;
