@@ -337,12 +337,16 @@ p {
   border: 2px solid var(--accent-color);
   cursor: pointer;
 }
-.social-app .icon footer {
+footer {
   background-color: #2f303a;
   line-height: 1.71;
   letter-spacing: 0.42px;
+  color: var(--primary-white-color);
+}
+footer .social-app {
   fill: var(--primary-white-color);
 }
+
 footer .upper-footer {
   display: flex;
   align-items: baseline;
