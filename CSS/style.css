@@ -462,19 +462,13 @@ strong {
 }
 .description {
   color: var(--primary-white-color);
-  background-color: var(--accent-color);
+  background-color: rgba(33, 150, 243, 0.9);
   position: absolute;
   bottom: 0;
   right: 0;
   margin: 0;
-  padding: 5px 10px;
 }
 
-.description:hover,
-.description:focus {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-}
 .portfolio .container {
   margin-top: 93px;
   margin-bottom: 94px;
