@@ -101,6 +101,7 @@ a {
 .contact-nav .link:focus,
 .contact-nav .link:active {
   color: var(--accent-color);
+  --color4: var(--accent-color);
 }
 .icon-email {
   display: inline-block;
@@ -114,15 +115,7 @@ a {
   width: 10px;
   height: 15px;
   margin-right: 10px;
-}
-.icon-email:hover,
-.icon-email:focus,
-.icon-email:active,
-.icon-tell:hover,
-.icon-tell:focus,
-.icon-tell:active {
-  --color4: var(--accent-color);
-}
+
 
 .hero {
   min-height: 600px;
