@@ -235,6 +235,7 @@ button:focus {
 }
 .our-team {
   display: flex;
+  max-width: 1600px;
 }
 .our-team .item + .item {
   margin-left: 30px;
