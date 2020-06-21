@@ -177,7 +177,6 @@ button:focus {
 }
 .feature-list {
   display: flex;
-  padding-top: 94px;
 }
 .visually-hidden {
   position: absolute;
@@ -323,8 +322,6 @@ p {
   --color3: var(--primary-white-color);
 }
 
-.our-clients {
-  padding-top: 54px;
 }
 .clients {
   display: flex;
