@@ -354,6 +354,9 @@ footer .social-app {
   margin-left: 0;
 }
 footer .item {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(255, 255, 255, 0.1);
   --color3: var(--primary-white-color);
 }
