@@ -87,7 +87,6 @@ a {
 .link:focus,
 .link:active {
   color: var(--accent-color);
-  --color4: var(--accent-color);
 }
 
 .site-nav a {
