@@ -83,6 +83,13 @@ a {
 .contact-nav {
   margin-left: auto;
 }
+.link:hover,
+.link:focus,
+.link:active {
+  color: var(--accent-color);
+  --color4: var(--accent-color);
+}
+
 .site-nav a {
   color: var(--title-text-color);
 }
@@ -104,14 +111,15 @@ a {
   height: 15px;
   margin-right: 10px;
 }
-.icon-email:hover,
+/*.icon-email:hover,
 .icon-email:focus,
 .icon-email:active,
 .icon-tell:hover,
 .icon-tell:focus,
 .icon-tell:active {
   --color4: var(--accent-color);
-}
+}*/
+
 .hero {
   min-height: 600px;
   max-width: 1600px;
@@ -443,12 +451,6 @@ strong {
 .description:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-}
-
-.link:hover,
-.link:focus,
-.link:active {
-  color: var(--accent-color);
 }
 
 .card-container {
