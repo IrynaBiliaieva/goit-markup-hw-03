@@ -110,12 +110,13 @@ a {
   height: 11px;
   margin-right: 10px;
 }
+
 .icon-tell {
   display: inline-block;
   width: 10px;
   height: 15px;
   margin-right: 10px;
-
+}
 
 .hero {
   min-height: 600px;
