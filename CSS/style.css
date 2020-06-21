@@ -97,7 +97,11 @@ a {
 .contact-nav .link {
   color: var(--primary-text-color);
 }
-
+.contact-nav .link:hover,
+.contact-nav .link:focus,
+.contact-nav .link:active {
+  color: var(--accent-color);
+}
 .icon-email {
   display: inline-block;
   align-items: baseline;
@@ -233,6 +237,19 @@ button:focus {
 .works-list .item + .item {
   margin-left: 30px;
 }
+.works-list .item {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+.works-list .sub-title {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  padding: 5px 10px;
+}
+
 .our-team {
   display: flex;
   max-width: 1600px;
@@ -446,6 +463,11 @@ strong {
 .description {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  padding: 5px 10px;
 }
 
 .description:hover,
@@ -467,6 +489,25 @@ strong {
   display: flex;
   flex-wrap: wrap;
 }
+
+.card-list .link {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+/*.works-list .item {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+.works-list .sub-title {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  padding: 5px 10px;
+}*/
+
 .card-item {
   width: 370px;
   min-height: 404px;
