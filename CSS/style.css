@@ -104,7 +104,14 @@ a {
   height: 15px;
   margin-right: 10px;
 }
-
+.icon-email:hover,
+.icon-email:focus,
+.icon-email:active,
+.icon-tell:hover,
+.icon-tell:focus,
+.icon-tell:active{
+  --color4: var(--accent-color)
+}
 .hero {
   min-height: 600px;
   max-width: 1600px;
@@ -310,11 +317,13 @@ p {
 
 .social-app .item:hover {
   background: var(--accent-color);
-  --color: #fff;
+ 
 }
-.icon:hover {
-  fill: var(--primary-white-color);
-  --color3: red;
+.icon:hover,
+.icon:focus,
+.icon:active {
+  fill: 
+  --color3: var(--primary-white-color);
 }
 .our-clients {
   padding-top: 54px;
