@@ -111,14 +111,14 @@ a {
   height: 15px;
   margin-right: 10px;
 }
-/*.icon-email:hover,
+.icon-email:hover,
 .icon-email:focus,
 .icon-email:active,
 .icon-tell:hover,
 .icon-tell:focus,
 .icon-tell:active {
   --color4: var(--accent-color);
-}*/
+}
 
 .hero {
   min-height: 600px;
