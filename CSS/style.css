@@ -314,7 +314,7 @@ p {
 }
 .icon:hover {
   fill: var(--primary-white-color);
-  color: var(--primary-white-color);
+  --color3: red;
 }
 .our-clients {
   padding-top: 54px;
