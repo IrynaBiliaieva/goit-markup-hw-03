@@ -352,7 +352,10 @@ footer {
 }
 footer .social-app {
   margin-left: 0;
-  fill: var(--primary-white-color);
+}
+footer .item {
+  background-color: rgba(255, 255, 255, 0.1);
+  --color3: var(--primary-white-color);
 }
 
 footer .upper-footer {
@@ -448,8 +451,8 @@ strong {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 215px;
 }
+
 .card-list {
   display: flex;
   flex-wrap: wrap;
