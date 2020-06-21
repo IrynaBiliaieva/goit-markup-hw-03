@@ -312,8 +312,9 @@ p {
   background: var(--accent-color);
   --color: #fff;
 }
-.social-app:hover .icon {
+.icon:hover {
   fill: var(--primary-white-color);
+  color: var(--primary-white-color);
 }
 .our-clients {
   padding-top: 54px;
