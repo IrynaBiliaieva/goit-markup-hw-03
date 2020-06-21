@@ -317,12 +317,15 @@ p {
 
 .social-app .item:hover {
   background: var(--accent-color);
+  --color3: var(--primary-white-color);
 }
-.icon:hover,
+
+/*.icon:hover,
 .icon:focus,
 .icon:active {
   --color3: var(--primary-white-color);
-}
+}*/
+
 .our-clients {
   padding-top: 54px;
 }
