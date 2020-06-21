@@ -215,9 +215,10 @@ button:focus {
 .icon-austronaut::before {
   background-image: url("../images/astronaut.svg");
 }
-section .work-examples {
+.work-examples {
   padding-top: 0;
 }
+
 .works-list {
   display: flex;
 }
@@ -322,7 +323,6 @@ p {
   --color3: var(--primary-white-color);
 }
 
-}
 .clients {
   display: flex;
   align-items: center;
@@ -342,6 +342,7 @@ p {
 
 .clients .item:hover {
   border: 2px solid var(--accent-color);
+  --color3: var(--accent-color);
   cursor: pointer;
 }
 footer {
